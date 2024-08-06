@@ -1,9 +1,9 @@
 
     function data(){
-    var a=document.getElementById("n1").value;
-    var b=document.getElementById("n2").value;
-    var c=document.getElementById("n3").value;
-    var d=document.getElementById("n4").value;
+    let a=document.getElementById("n1").value;
+    let b=document.getElementById("n2").value;
+    let c=document.getElementById("n3").value;
+    let d=document.getElementById("n4").value;
     
     if (a==""||b==""||c==""||d=="") {
         alert("All field are mandatory");
